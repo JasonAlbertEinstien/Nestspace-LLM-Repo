@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+  }
+  
+  /* Chat box styles */
+  #chat-box {
+    width: 700px;
+    height: 600px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  #chat-box p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  /* Message input styles */
+  #message-input {
+    width: 600px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #send-button {
+      background: #5E5DF0;
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      opacity: 1;
+      outline: 0 solid transparent;
+      padding: 8px 18px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border: 0;
+
+  }
+  
+  #send-button:hover {
+    background-color: #8484ec;
+  }
+  
+  #send-button:active{
+    transform: translateY(5px);
+  }
+
+  /* Styling for sender and receiver messages */
+  .sender-message {
+    background-color: #DCF8C6;
+  }
+  
+  .receiver-message {
+    background-color: #E2E2E2;
+  }
+  
+  .sender-message,
+  .receiver-message {
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .sender-message strong,
+  .receiver-message strong {
+    font-weight: bold;
+  }
+
+.container{
+    display: flex;
+    min-width: 50%;
+    align-items: center;
+    flex-direction: column;
+}
+.chat-input-box{
+    padding-top: 15px;
+}
